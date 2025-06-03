@@ -34,7 +34,8 @@ Control a red car, avoid oncoming traffic (blue rectangles), and score as high a
 
 📁 RacingCarGame/
 
-├── main.c              
+├── main.c
+├── raylib.h
 ├── README.md           
 
 ---
