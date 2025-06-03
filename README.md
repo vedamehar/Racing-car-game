@@ -31,13 +31,13 @@ Control a red car, avoid oncoming traffic (blue rectangles), and score as high a
 
 ## 🗂 Project Structure
 
-
+```bash
 📁 RacingCarGame/
-
-├── main.c
-├── raylib.h
-├── README.md           
-
+├── main.c           # Main game logic and loop
+├── raylib.h         # Raylib header (if included locally)
+├── README.md        # Project documentation
+        
+```
 ---
 
 🚀 Getting Started
@@ -45,25 +45,26 @@ Control a red car, avoid oncoming traffic (blue rectangles), and score as high a
 🔧 Installation
 
 1. Install raylib
-   
+```bash
 raylib setup guide
-
+```
 On Ubuntu/Debian:
+```bash
 sudo apt install libraylib-dev
-
+```
 
 
 2. Clone the Repository
-
+```bash
 git clone https://github.com/your-username/RacingCarGame.git
 cd RacingCarGame
-
+```
 
 3. Compile & Run
-
+```bash
 gcc main.c -o racing -lraylib -lm -lpthread -ldl -lrt -lX11
 ./racing
-
+```
 
 > Make sure raylib is linked properly, especially if you're on Windows. Refer to the official guide.
 
@@ -86,14 +87,14 @@ Game Over
 
 👨‍💻 Contributors
 
-Vedant Mehar
-Anushka Mangade
-Riya Mote
-Naaz Tadavi
+- Vedant Mehar
+- Anushka Mangade
+- Riya Mote
+- Naaz Tadavi
 
-🧑‍🏫 Guide: Prof. Lokesh Khedekar
-🎓 Department of Engineering Sciences and Humanities
-🏫 Vishwakarma Institute of Technology, Pune
+- 🧑‍🏫 Guide: Prof. Lokesh Khedekar
+- 🎓 Department of Engineering Sciences and Humanities
+- 🏫 Vishwakarma Institute of Technology, Pune
 
 
 ---
@@ -107,6 +108,7 @@ Naaz Tadavi
 
 
 
-📄 License
+📄 License:
+
 This project is developed for academic purposes and open for educational contributions. You may fork and experiment with it for learning.
 
